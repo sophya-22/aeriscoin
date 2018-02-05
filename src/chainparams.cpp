@@ -114,11 +114,11 @@ public:
         nPruneAfterHeight = 100000;
 
 
-        genesis = CreateGenesisBlock(1517775331, 735571, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517849983, 2442161, 0x1e0ffff0, 1, 50 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock ==
-               uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d"));
+               uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607"));
         assert(genesis.hashMerkleRoot ==
                uint256S("0x1799a2ff8e3776c2386f8b9b554da902a79e86072f48c8bf5c702f3c29c295e4"));
 
@@ -157,9 +157,9 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d"))
+            (0, uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607"))
              ,
-            1517775331,
+            1517849983,
             0,
             500
         };
@@ -220,10 +220,10 @@ public:
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517775331, 735571, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517849983, 2442161, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock ==
-               uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d"));
+               uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607"));
         assert(genesis.hashMerkleRoot ==
                uint256S("0x1799a2ff8e3776c2386f8b9b554da902a79e86072f48c8bf5c702f3c29c295e4"));
 
@@ -270,8 +270,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d")),
-            1517775331,
+            (0, uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607")),
+            1517849983,
             0,
             500
         };
@@ -332,10 +332,10 @@ public:
         nPruneAfterHeight = 1000;
 
 
-        genesis = CreateGenesisBlock(1517775331, 735571, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517849983, 2442161, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock ==
-               uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d"));
+               uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607"));
         assert(genesis.hashMerkleRoot ==
                uint256S("0x1799a2ff8e3776c2386f8b9b554da902a79e86072f48c8bf5c702f3c29c295e4"));
 
@@ -352,8 +352,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x0000052f1cd37ac97c5a83982c1916e4800530961d2ebbde46c817e625edcf0d")),
-            1517775331,
+            (0, uint256S("0x00000ac3b982c0b616ae1a4188c1222c340979d3c69bdeffcd757c40037ef607")),
+            1517849983,
             0,
             500
         };
