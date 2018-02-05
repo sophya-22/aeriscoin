@@ -167,7 +167,6 @@ $(host_prefix)/share/config.site: check-packages
 check-packages: check-sources
 
 install: check-packages $(host_prefix)/share/config.site
-ola
 
 download-one: check-sources $(all_sources)
 
