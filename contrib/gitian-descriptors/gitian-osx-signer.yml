@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/aeriscoin-project/aeriscoin-detached-sigs.git"
+- "url": "https://github.com/aeriscoin/aeriscoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "aeriscoin-osx-unsigned.tar.gz"

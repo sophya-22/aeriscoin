@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/aeriscoin-project/aeriscoin/tags) are created
+completely stable. [Tags](https://github.com/aeriscoin/aeriscoin/tags) are created
 regularly to indicate new official, stable release versions of Aeris Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

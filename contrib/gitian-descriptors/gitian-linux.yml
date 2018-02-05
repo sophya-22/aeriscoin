@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/aeriscoin-project/aeriscoin.git"
+- "url": "https://github.com/aeriscoin/aeriscoin.git"
   "dir": "aeriscoin"
 files: []
 script: |

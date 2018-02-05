@@ -33,7 +33,7 @@ Build Aeris Core
 
 1. Clone the aeriscoin source code and cd into `aeriscoin`
 
-        git clone https://github.com/aeriscoin-project/aeriscoin
+        git clone https://github.com/aeriscoin/aeriscoin
         cd aeriscoin
 
 2.  Build aeriscoin-core:
