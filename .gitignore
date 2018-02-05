@@ -73,7 +73,6 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-!depends*/Makefile
 Makefile
 aeris-qt
 Aeris-Qt.app
@@ -110,3 +109,5 @@ test/cache/*
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+
+!depends/
