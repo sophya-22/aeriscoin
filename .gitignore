@@ -1,4 +1,4 @@
-*.tar.gz
+f*.tar.gz
 
 *.exe
 src/aeris
@@ -73,6 +73,7 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
+!depends/Makefile
 Makefile
 aeris-qt
 Aeris-Qt.app
