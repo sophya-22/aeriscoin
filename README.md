@@ -1,7 +1,7 @@
 Aeris Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/aeriscoin-project/aeriscoin.svg?branch=master)](https://travis-ci.org/aeriscoin-project/aeriscoin)
+[![Build Status](https://travis-ci.org/aeriscoin/aeriscoin.svg?branch=master)](https://travis-ci.org/aeriscoin/aeriscoin)
 
 https://aeriscoin.org
 

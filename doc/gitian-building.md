@@ -315,7 +315,7 @@ Clone the git repositories for aeriscoin and Gitian.
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/aeriscoin/aeriscoin
-git clone https://github.com/aeriscoin-project/gitian.sigs.ltc.git
+git clone https://github.com/aeriscoin/gitian.sigs.ltc.git
 ```
 
 Setting up the Gitian image
@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[aeriscoin-project/gitian.sigs.ltc](https://github.com/aeriscoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[aeriscoin/gitian.sigs.ltc](https://github.com/aeriscoin/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.
