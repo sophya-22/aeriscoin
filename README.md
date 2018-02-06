@@ -3,7 +3,7 @@ Aeris Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/aeriscoin/aeriscoin.svg?branch=master)](https://travis-ci.org/aeriscoin/aeriscoin)
 
-https://aeriscoin.org
+https://aeriscoin.com
 
 What is Aeris?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Aeris Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Aeris Core software, see [https://aeriscoin.org](https://aeriscoin.org).
+the Aeris Core software, see [https://aeriscoin.com](https://aeriscoin.com).
 
 License
 -------
