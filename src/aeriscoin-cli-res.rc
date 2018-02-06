@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aeris"
-            VALUE "FileDescription",    "aeriscoin-cli (JSON-RPC client for Aeris Core)"
+            VALUE "CompanyName",        "Aeriscoin"
+            VALUE "FileDescription",    "aeriscoin-cli (JSON-RPC client for Aeriscoin Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aeriscoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

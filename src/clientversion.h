@@ -13,7 +13,7 @@
  * client versioning and copyright year
  */
 
-//! These need to be macros, as clientversion.cpp's and aeris*-res.rc's voodoo requires it
+//! These need to be macros, as clientversion.cpp's and aeriscoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 0
 #define CLIENT_VERSION_REVISION 3
@@ -38,7 +38,7 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Aeris Core Developers"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Aeriscoin Core Developers"
 
 /**
  * aeriscoind-res.rc includes this file, but it cannot cope with real c++ code.

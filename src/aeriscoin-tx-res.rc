@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aeris"
-            VALUE "FileDescription",    "aeriscoin-tx (CLI Aeris transaction editor utility)"
+            VALUE "CompanyName",        "Aeriscoin"
+            VALUE "FileDescription",    "aeriscoin-tx (CLI Aeriscoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aeriscoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

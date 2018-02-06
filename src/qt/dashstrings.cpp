@@ -42,7 +42,7 @@ static const char UNUSED *aeriscoin_strings[] = {
                       "notation for IPv6. This option can be specified multiple times (default: "
                       "bind to all interfaces)"),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
-                      "Cannot obtain a lock on data directory %s. Aeris Core is probably already "
+                      "Cannot obtain a lock on data directory %s. Aeriscoin Core is probably already "
                       "running."),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
                       "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ static const char UNUSED *aeriscoin_strings[] = {
                       "Delete all wallet transactions and only recover those parts of the "
                       "blockchain through -rescan on startup"),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
-                      "Disable all Aeris specific functionality (Masternodes, PrivateSend, "
+                      "Disable all Aeriscoin specific functionality (Masternodes, PrivateSend, "
                       "InstantSend, Governance) (0-1, default: %u)"),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
                       "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -149,7 +149,7 @@ static const char UNUSED *aeriscoin_strings[] = {
                       "Output debugging information (default: %u, supplying <category> is optional)"),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
                       "Please check that your computer's date and time are correct! If your clock "
-                      "is wrong Aeris Core will not work properly."),
+                      "is wrong Aeriscoin Core will not work properly."),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
                       "PrivateSend uses exact denominated amounts to send funds, you might simply "
                       "need to anonymize some more coins."),
@@ -212,7 +212,7 @@ static const char UNUSED *aeriscoin_strings[] = {
                       "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
                       "no limit (default: %d)"),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
-                      "Unable to bind to %s on this computer. Aeris Core is probably already running."),
+                      "Unable to bind to %s on this computer. Aeriscoin Core is probably already running."),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
                       "Unable to locate enough PrivateSend denominated funds for this transaction."),
     QT_TRANSLATE_NOOP("aeriscoin-core", ""
@@ -313,7 +313,7 @@ static const char UNUSED *aeriscoin_strings[] = {
     QT_TRANSLATE_NOOP("aeriscoin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Connection options:"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-    QT_TRANSLATE_NOOP("aeriscoin-core", "Copyright (C) 2014-%i The Aeris Core Developers"),
+    QT_TRANSLATE_NOOP("aeriscoin-core", "Copyright (C) 2014-%i The Aeriscoin Core Developers"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Corrupted block database detected"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Could not parse masternode.conf"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Debugging/Testing options:"),
@@ -336,7 +336,7 @@ static const char UNUSED *aeriscoin_strings[] = {
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error loading block database"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error loading wallet.dat"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error loading wallet.dat: Wallet corrupted"),
-    QT_TRANSLATE_NOOP("aeriscoin-core", "Error loading wallet.dat: Wallet requires newer version of Aeris Core"),
+    QT_TRANSLATE_NOOP("aeriscoin-core", "Error loading wallet.dat: Wallet requires newer version of Aeriscoin Core"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error opening block database"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error reading from database, shutting down."),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Error"),
@@ -359,7 +359,7 @@ static const char UNUSED *aeriscoin_strings[] = {
     QT_TRANSLATE_NOOP("aeriscoin-core", "Incompatible version."),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Information"),
-    QT_TRANSLATE_NOOP("aeriscoin-core", "Initialization sanity check failed. Aeris Core is shutting down."),
+    QT_TRANSLATE_NOOP("aeriscoin-core", "Initialization sanity check failed. Aeriscoin Core is shutting down."),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Input is not valid."),
     QT_TRANSLATE_NOOP("aeriscoin-core", "InstantSend options:"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Insufficient funds."),
@@ -508,7 +508,7 @@ static const char UNUSED *aeriscoin_strings[] = {
     QT_TRANSLATE_NOOP("aeriscoin-core", "Very low number of keys left: %d"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet %s resides outside data directory %s"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet is locked."),
-    QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet needed to be rewritten: restart Aeris Core to complete"),
+    QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet needed to be rewritten: restart Aeriscoin Core to complete"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet options:"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Wallet window title"),
     QT_TRANSLATE_NOOP("aeriscoin-core", "Warning"),

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -22,7 +22,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     unitlist.append(ARS);
     unitlist.append(mARS);
     unitlist.append(uARS);
-    unitlist.append(Munits);
+    unitlist.append(Aenits);
     return unitlist;
 }
 
@@ -33,7 +33,7 @@ bool BitcoinUnits::valid(int unit)
     case ARS:
     case mARS:
     case uARS:
-    case Munits:
+    case Aenits:
         return true;
     default:
         return false;
@@ -52,8 +52,8 @@ QString BitcoinUnits::name(int unit)
             return QString("mARS");
         case uARS:
             return QString::fromUtf8("μARS");
-        case Munits:
-            return QString("Munits");
+        case Aenits:
+            return QString("Aenits");
         default:
             return QString("???");
         }
@@ -68,8 +68,8 @@ QString BitcoinUnits::name(int unit)
             return QString("mtARS");
         case uARS:
             return QString::fromUtf8("μtARS");
-        case Munits:
-            return QString("tMunits");
+        case Aenits:
+            return QString("tAenits");
         default:
             return QString("???");
         }
@@ -83,13 +83,13 @@ QString BitcoinUnits::description(int unit)
         switch(unit)
         {
         case ARS:
-            return QString("Aeris");
+            return QString("Aeriscoin");
         case mARS:
-            return QString("Milli-Aeris (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-Aeriscoin (1 / 1" THIN_SP_UTF8 "000)");
         case uARS:
-            return QString("Micro-Aeris (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-        case Munits:
-            return QString("Ten Nano-Aeris (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-Aeriscoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case Aenits:
+            return QString("Ten Nano-Aeriscoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -99,13 +99,13 @@ QString BitcoinUnits::description(int unit)
         switch(unit)
         {
         case ARS:
-            return QString("TestAeriss");
+            return QString("TestAeriscoins");
         case mARS:
-            return QString("Milli-TestAeris (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestAeriscoin (1 / 1" THIN_SP_UTF8 "000)");
         case uARS:
-            return QString("Micro-TestAeris (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-        case Munits:
-            return QString("Ten Nano-TestAeris (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestAeriscoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case Aenits:
+            return QString("Ten Nano-TestAeriscoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -122,7 +122,7 @@ qint64 BitcoinUnits::factor(int unit)
         return 100000;
     case uARS:
         return 100;
-    case Munits:
+    case Aenits:
         return 1;
     default:
         return 100000000;
@@ -139,7 +139,7 @@ int BitcoinUnits::decimals(int unit)
         return 5;
     case uARS:
         return 2;
-    case Munits:
+    case Aenits:
         return 0;
     default:
         return 0;

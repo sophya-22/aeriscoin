@@ -125,7 +125,7 @@ public:
 };
 
 /**
- * Aeris RPC command dispatcher.
+ * Aeriscoin RPC command dispatcher.
  */
 class CRPCTable
 {

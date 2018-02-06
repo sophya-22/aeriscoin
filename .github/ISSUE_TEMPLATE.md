@@ -4,7 +4,7 @@ This issue tracker is only for technical issues related to aeriscoin-core.
 
 General aeriscoin questions and/or support requests and are best directed to the [aeriscointalk.io forums](https://aeriscointalk.io/).
 
-For reporting security issues, please contact the Aeris developers on the #aeriscoin-dev Freenode IRC channel or alternatively you can email us at contact@aeriscoin.org.
+For reporting security issues, please contact the Aeriscoin developers on the #aeriscoin-dev Freenode IRC channel or alternatively you can email us at contact@aeriscoin.org.
 
 ### Describe the issue
 

@@ -40,7 +40,7 @@ def determine_db_dir():
     if platform.system() == "Darwin":
         return os.path.expanduser("~/Library/Application Support/Aeris/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Aeris")
+        return os.path.join(os.environ['APPDATA'], "Aeriscoin")
     return os.path.expanduser("~/.aeriscoin")
 
 def read_bitcoin_config(dbdir):

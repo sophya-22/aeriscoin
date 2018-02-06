@@ -38,7 +38,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/aeriscoin/aeriscoin.git
 
-### Aeris maintainers/release engineers, suggestion for writing release notes
+### Aeriscoin maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -108,7 +108,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Aeris Core for Linux, Windows, and OS X:
+### Build and sign Aeriscoin Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
     ./bin/gbuild --num-make 2 --memory 3000 --commit aeriscoin=v${VERSION} ../aeriscoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -275,7 +275,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Update title of #aeriscoin and #aeriscoin-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Aeris, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Aeriscoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 

@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 
-	CAerisNetwork: ARS NETWORK (ROOT)
+	CAeriscoinNetwork: ARS NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CAerisProject> vecProjects;
+		vector<CAeriscoinProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CAerisProject:
+	CAeriscoinProject:
 	has:
 		name
 		employees

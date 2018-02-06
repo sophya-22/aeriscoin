@@ -1,15 +1,15 @@
-Aeris Core
+Aeriscoin Core
 =============
 
 Setup
 ---------------------
-Aeris Core is the original Aeris client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Aeris transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Aeriscoin Core is the original Aeriscoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Aeriscoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Aeris Core, visit [aeriscoin.org](https://aeriscoin.com).
+To download Aeriscoin Core, visit [aeriscoin.org](https://aeriscoin.com).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Aeris on your native platform.
+The following are some helpful notes on how to run Aeriscoin on your native platform.
 
 ### Unix
 
@@ -24,18 +24,18 @@ Unpack the files into a directory, and then run aeriscoin-qt.exe.
 
 ### OS X
 
-Drag Aeris-Core to your applications folder, and then run Aeris-Core.
+Drag Aeriscoin-Core to your applications folder, and then run Aeriscoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Aeris Wiki](https://aeriscoin.info/)
+* See the documentation at the [Aeriscoin Wiki](https://aeriscoin.info/)
 for help and more information.
 * Ask for help on [#aeriscoin](http://webchat.freenode.net?channels=aeriscoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=aeriscoin).
-* Ask for help on the [AerisTalk](https://aeriscointalk.io/) forums.
+* Ask for help on the [AeriscoinTalk](https://aeriscointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Aeris on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Aeriscoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -45,7 +45,7 @@ The following are developer notes on how to build Aeris on your native platform.
 
 Development
 ---------------------
-The Aeris repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Aeriscoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -61,8 +61,8 @@ The Aeris repo's [root README](/README.md) contains relevant information on the 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [AerisTalk](https://aeriscointalk.io/) forums.
-* Discuss general Aeris development on #aeriscoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=aeriscoin-dev).
+* Discuss on the [AeriscoinTalk](https://aeriscointalk.io/) forums.
+* Discuss general Aeriscoin development on #aeriscoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=aeriscoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

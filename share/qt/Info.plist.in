@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.aeriscoin.AerisPayment</string>
+      <string>org.aeriscoin.AeriscoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>aeriscoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.aeriscoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Aeris payment request</string>
+      <string>Aeriscoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

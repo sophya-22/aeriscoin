@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 
 #include "cachemap.h"
 

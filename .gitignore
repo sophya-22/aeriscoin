@@ -1,11 +1,11 @@
 f*.tar.gz
 
 *.exe
-src/aeris
+src/aeriscoin
 src/aeriscoind
 src/aeriscoin-cli
 src/aeriscoin-tx
-src/test/test_aeris
+src/test/test_aeriscoin
 src/test/test_aeriscoin_fuzzy
 src/qt/test/test_aeriscoin-qt
 

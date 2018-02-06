@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Aeris tests.
+Utilities to generate test vectors for the data-driven Aeriscoin tests.
 
 Usage: 
 

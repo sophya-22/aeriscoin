@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -103,7 +103,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-//Aeris only features
+//Aeriscoin only features
 bool fMasterNode = false;
 bool fLiteMode = false;
 /**
@@ -270,8 +270,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "aeris" is a composite category enabling all Aeris-related debug output
-            if(ptrCategory->count(string("aeris"))) {
+            // "aeriscoin" is a composite category enabling all Aeriscoin-related debug output
+            if(ptrCategory->count(string("aeriscoin"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));
                 ptrCategory->insert(string("masternode"));
@@ -495,7 +495,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "aeris";
+    const char* pszModule = "aeriscoin";
 #endif
     if (pex)
         return strprintf(
@@ -515,13 +515,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\AerisCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\AerisCore
-    // Mac: ~/Library/Application Support/AerisCore
-    // Unix: ~/.aeriscore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\AeriscoinCore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\AeriscoinCore
+    // Mac: ~/Library/Application Support/AeriscoinCore
+    // Unix: ~/.aeriscoincore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "AerisCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "AeriscoinCore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -531,10 +531,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/AerisCore";
+    return pathRet / "Library/Application Support/AeriscoinCore";
 #else
     // Unix
-    return pathRet / ".aeriscore";
+    return pathRet / ".aeriscoincore";
 #endif
 #endif
 }

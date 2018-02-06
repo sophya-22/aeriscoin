@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1,
 
     // -------------------------------
-    // AerisNetwork - is the root node
-    AerisNetwork = 1000,
-    AerisNetworkVariable = 1001,
+    // AeriscoinNetwork - is the root node
+    AeriscoinNetwork = 1000,
+    AeriscoinNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

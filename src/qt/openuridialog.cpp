@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 #if QT_VERSION >= 0x040700
-    ui->uriEdit->setPlaceholderText("aeris:");
+    ui->uriEdit->setPlaceholderText("aeriscoin:");
 #endif
 }
 
@@ -49,5 +49,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("aeris:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("aeriscoin:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

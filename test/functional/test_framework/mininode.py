@@ -1705,7 +1705,7 @@ class NodeConn(asyncore.dispatcher):
             vt.addrFrom.port = 0
             self.send_message(vt, True)
 
-        logger.info('Connecting to Aeris Node: %s:%d' % (self.dstaddr, self.dstport))
+        logger.info('Connecting to Aeriscoin Node: %s:%d' % (self.dstaddr, self.dstport))
 
         try:
             self.connect((dstaddr, dstport))

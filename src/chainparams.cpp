@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -122,24 +122,24 @@ public:
         assert(genesis.hashMerkleRoot ==
                uint256S("0x1799a2ff8e3776c2386f8b9b554da902a79e86072f48c8bf5c702f3c29c295e4"));
 
-        //vSeeds.push_back(CDNSSeedData("nodes.aerisx.io", "nodes.aerisx.io"));
-        //vSeeds.push_back(CDNSSeedData("nodes.Aeris.org", "nodes.Aeris.org"));
+        //vSeeds.push_back(CDNSSeedData("nodes.aeriscoinx.io", "nodes.aeriscoinx.io"));
+        //vSeeds.push_back(CDNSSeedData("nodes.Aeriscoin.org", "nodes.Aeriscoin.org"));
         //vSeeds.push_back(CDNSSeedData("nodes.myaeriscoin.com", "nodes.myaeriscoin.com"));
         //vSeeds.push_back(CDNSSeedData("nodes.cryptophi.com", "nodes.cryptophi.com"));
         vSeeds.clear();
 
-        // Aeris addresses start with 'A'
+        // Aeriscoin addresses start with 'A'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
-        // Aeris script addresses start with 'S'
+        // Aeriscoin script addresses start with 'S'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);
-        // Aeris private keys start with 'y' or 'z'
+        // Aeriscoin private keys start with 'y' or 'z'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 79);
 
-        // Aeris BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Aeriscoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Aeris BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Aeriscoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Aeris BIP44 coin type is '5' <== Should be migrated to 31 SLIP-44 Aeris
+        // Aeriscoin BIP44 coin type is '5' <== Should be migrated to 31 SLIP-44 Aeriscoin
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -230,28 +230,28 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        //vSeeds.push_back(CDNSSeedData("tnodes.aerisx.io", "tnodes.aerisx.io"));
-        //vSeeds.push_back(CDNSSeedData("nodes.Aeris.org", "nodes.Aeris.org"));
+        //vSeeds.push_back(CDNSSeedData("tnodes.aeriscoinx.io", "tnodes.aeriscoinx.io"));
+        //vSeeds.push_back(CDNSSeedData("nodes.Aeriscoin.org", "nodes.Aeriscoin.org"));
         //vSeeds.push_back(CDNSSeedData("nodes.myaeriscoin.com", "nodes.myaeriscoin.com"));
         //vSeeds.push_back(CDNSSeedData("nodes.cryptophi.com", "nodes.cryptophi.com"));
 
 
 
-        // Aeris addresses start with 'a'
+        // Aeriscoin addresses start with 'a'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 83);
-        // Aeris script addresses start with 's'
+        // Aeriscoin script addresses start with 's'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125);
-        // Aeris private keys start with 'y' or '<'
+        // Aeriscoin private keys start with 'y' or '<'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 141);
 
-        // Testnet Aeris BIP32 pubkeys
+        // Testnet Aeriscoin BIP32 pubkeys
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(
                                              0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Aeris BIP32 prvkeys
+        // Testnet Aeriscoin BIP32 prvkeys
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(
                                              0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Testnet Aeris BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Aeriscoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(
                                             0x01).convert_to_container<std::vector<unsigned char> >();
 
@@ -358,21 +358,21 @@ public:
             500
         };
 
-        // Aeris addresses start with 'R'
+        // Aeriscoin addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);
-        // Aeris script addresses start with 'U' or 'V'
+        // Aeriscoin script addresses start with 'U' or 'V'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 69);
-        // Aeris private keys start with 'Q' or 'R'
+        // Aeriscoin private keys start with 'Q' or 'R'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 59);
 
-        // Regtest Aeris BIP32 pubkeys start with
+        // Regtest Aeriscoin BIP32 pubkeys start with
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(
                                              0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Aeris BIP32 prvkeys start with
+        // Regtest Aeriscoin BIP32 prvkeys start with
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(
                                              0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Regtest Aeris BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Aeriscoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(
                                             0x01).convert_to_container<std::vector<unsigned char> >();
     }

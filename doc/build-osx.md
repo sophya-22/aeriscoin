@@ -28,7 +28,7 @@ If you want to build with ZeroMQ support
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Aeris Core
+Build Aeriscoin Core
 ------------------------
 
 1. Clone the aeriscoin source code and cd into `aeriscoin`
@@ -57,7 +57,7 @@ Build Aeris Core
 Running
 -------
 
-Aeris Core is now available at `./src/aeriscoind`
+Aeriscoin Core is now available at `./src/aeriscoind`
 
 Before running, it's recommended you create an RPC configuration file.
 

@@ -1,11 +1,11 @@
 # Notes
 The sources in this directory are unit test cases.  Boost includes a
-unit testing framework, and since Aeris Core already uses boost, it makes
+unit testing framework, and since Aeriscoin Core already uses boost, it makes
 sense to simply use this framework rather than require developers to
 configure some other framework (we want as few impediments to creating
 unit tests as possible).
 
-The build system is setup to compile an executable called "test_aeris"
+The build system is setup to compile an executable called "test_aeriscoin"
 that runs all of the unit tests.  The main source file is called
 test_aeriscoin.cpp, which simply includes other files that contain the
 actual unit tests (outside of a couple required preprocessor
@@ -22,14 +22,14 @@ For further reading, I found the following website to be helpful in
 explaining how the boost unit test framework works:
 [http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
 
-test_aeris has some built-in command-line arguments; for
+test_aeriscoin has some built-in command-line arguments; for
 example, to run just the getarg_tests verbosely:
 
-    test_aeris --log_level=all --run_test=getarg_tests
+    test_aeriscoin --log_level=all --run_test=getarg_tests
 
-... or to run just the doubleaeris test:
+... or to run just the doubleaeriscoin test:
 
-    test_aeris --run_test=getarg_tests/doubleaeris
+    test_aeriscoin --run_test=getarg_tests/doubleaeriscoin
 
-Run  test_aeris --help   for the full list.
+Run  test_aeriscoin --help   for the full list.
 

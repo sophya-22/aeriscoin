@@ -7,8 +7,8 @@ GovernanceObjectType GovernanceStringToType(std::string strType) {
     if(strType == "AllTypes") type = AllTypes;
     if(strType == "Error") type = Error;
     if(strType == "ValueOverride") type = ValueOverride;
-    if(strType == "AerisNetwork") type = AerisNetwork;
-    if(strType == "AerisNetworkVariable") type = AerisNetworkVariable;
+    if(strType == "AeriscoinNetwork") type = AeriscoinNetwork;
+    if(strType == "AeriscoinNetworkVariable") type = AeriscoinNetworkVariable;
     if(strType == "Category") type = Category;
     if(strType == "Group") type = Group;
     if(strType == "User") type = User;
@@ -28,8 +28,8 @@ std::string GovernanceTypeToString(GovernanceObjectType type) {
     if(type == AllTypes) s = "AllTypes";
     if(type == Error) s = "Error";
     if(type == ValueOverride) s = "ValueOverride";
-    if(type == AerisNetwork) s = "AerisNetwork";
-    if(type == AerisNetworkVariable) s = "AerisNetworkVariable";
+    if(type == AeriscoinNetwork) s = "AeriscoinNetwork";
+    if(type == AeriscoinNetworkVariable) s = "AeriscoinNetworkVariable";
     if(type == Category) s = "Category";
     if(type == Group) s = "Group";
     if(type == User) s = "User";

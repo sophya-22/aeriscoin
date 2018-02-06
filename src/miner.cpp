@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -37,7 +37,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// AerisMiner
+// AeriscoinMiner
 //
 
 //
@@ -328,7 +328,7 @@ static bool ProcessBlockFound(const CBlock* pblock, const CChainParams& chainpar
 
 void static MueMiner(const CChainParams& chainparams)
 {
-    LogPrintf("AerisMiner -- started\n");
+    LogPrintf("AeriscoinMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("aeriscoin-miner");
 
@@ -367,13 +367,13 @@ void static MueMiner(const CChainParams& chainparams)
             auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlock(chainparams, coinbaseScript->reserveScript));
             if (!pblocktemplate.get())
             {
-                LogPrintf("AerisMiner -- Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("AeriscoinMiner -- Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock *pblock = &pblocktemplate->block;
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("AerisMiner -- Running miner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("AeriscoinMiner -- Running miner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                       ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             int64_t nStart = GetTime();
@@ -389,7 +389,7 @@ void static MueMiner(const CChainParams& chainparams)
                     if (UintToArith256(hash) <= hashTarget)
                     {
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("AerisMiner:\n  proof-of-work found\n  hash: %s\n  target: %s\n", hash.GetHex(), hashTarget.GetHex());
+                        LogPrintf("AeriscoinMiner:\n  proof-of-work found\n  hash: %s\n  target: %s\n", hash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, chainparams);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
                         coinbaseScript->KeepScript();
@@ -426,12 +426,12 @@ void static MueMiner(const CChainParams& chainparams)
     }
     catch (const boost::thread_interrupted&)
     {
-        LogPrintf("AerisMiner -- terminated\n");
+        LogPrintf("AeriscoinMiner -- terminated\n");
         throw;
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("AerisMiner -- runtime error: %s\n", e.what());
+        LogPrintf("AeriscoinMiner -- runtime error: %s\n", e.what());
         return;
     }
 }

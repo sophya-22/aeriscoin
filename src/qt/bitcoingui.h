@@ -95,7 +95,7 @@ private:
     QAction *overviewAction;
     QAction *historyAction;
     QAction *masternodeAction;
-    QAction *aerisbankAction;
+    QAction *aeriscoinbankAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
     QAction *sendCoinsMenuAction;

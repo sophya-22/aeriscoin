@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Aeris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina Aeris-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your Aeriscoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina Aeriscoin-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your Aeris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina Aeris-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Aeriscoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina Aeriscoin-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Aeris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aeriss from being stolen by malware infecting your computer.</source>
-        <translation>Aeris kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Aeris stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>Aeriscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aeriscoins from being stolen by malware infecting your computer.</source>
+        <translation>Aeriscoin kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Aeriscoin stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core
 </translation>
     </message>
     <message>
@@ -244,16 +244,16 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a Aeris address</source>
-        <translation>Skicka mynt till en Aeris-adress</translation>
+        <source>Send coins to a Aeriscoin address</source>
+        <translation>Skicka mynt till en Aeriscoin-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aeris: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och Aeris:-URI:s)</translation>
+        <source>Request payments (generates QR codes and aeriscoin: URIs)</source>
+        <translation>Begär betalningar (genererar QR-koder och Aeriscoin:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Aeris Core</source>
-        <translation>&amp;Om Aeris Core</translation>
+        <source>&amp;About Aeriscoin Core</source>
+        <translation>&amp;Om Aeriscoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aeris</source>
-        <translation>Anpassa konfigurationsalternatv för Aeris</translation>
+        <source>Modify configuration options for Aeriscoin</source>
+        <translation>Anpassa konfigurationsalternatv för Aeriscoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your Aeris addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Aeris-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Aeriscoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Aeriscoin-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aeris addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Aeris-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified Aeriscoin addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Aeriscoin-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -404,16 +404,16 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aeris: URI or payment request</source>
-        <translation>Öppna en Aeris-URI eller betalningsbegäran</translation>
+        <source>Open a aeriscoin: URI or payment request</source>
+        <translation>Öppna en Aeriscoin-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Aeris Core help message to get a list with possible Aeris command-line options</source>
-        <translation>Visa Aeris Core-hjälpmeddelandet för att få en lista med möjliga Aeris-kommandoradalternativ</translation>
+        <source>Show the Aeriscoin Core help message to get a list with possible Aeriscoin command-line options</source>
+        <translation>Visa Aeriscoin Core-hjälpmeddelandet för att få en lista med möjliga Aeriscoin-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Darksend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Aeris:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Aeriscoin:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Aeris:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Aeriscoin:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Aeris:s konfigurationsskärm</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Aeriscoin:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aeris address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Aeris-adress.</translation>
+        <source>The entered address "%1" is not a valid Aeriscoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Aeriscoin-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Aeris Core.</source>
-        <translation>Välkommen till Aeris Core.</translation>
+        <source>Welcome to Aeriscoin Core.</source>
+        <translation>Välkommen till Aeriscoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aeris Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Aeris Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aeriscoin Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Aeriscoin Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Aeris Core will download and store a copy of the Aeris block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aeris Core kommer att laddas ned och lagra en kopia av Aeris:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Aeriscoin Core will download and store a copy of the Aeriscoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Aeriscoin Core kommer att laddas ned och lagra en kopia av Aeriscoin:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start Aeris after logging in to the system.</source>
-        <translation>Starta Aeris automatiskt efter systeminloggning.</translation>
+        <source>Automatically start Aeriscoin after logging in to the system.</source>
+        <translation>Starta Aeriscoin automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Aeris on system login</source>
-        <translation>&amp;Starta Aeris vid systeminloggning</translation>
+        <source>&amp;Start Aeriscoin on system login</source>
+        <translation>&amp;Starta Aeriscoin vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of Aeris to keep anonymized</source>
-        <translation>Mängd Aeris att bibehålla anonymiserade</translation>
+        <source>Amount of Aeriscoin to keep anonymized</source>
+        <translation>Mängd Aeriscoin att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the Aeris client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna Aeris:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the Aeriscoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna Aeriscoin:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,8 +1101,8 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aeris.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Aeris startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Aeriscoin.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Aeriscoin startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aeris network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Aeris-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aeriscoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Aeriscoin-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start aeris: click-to-pay handler</source>
-        <translation>Kan inte starta aeris: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start aeriscoin: click-to-pay handler</source>
+        <translation>Kan inte starta aeriscoin: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the Aeris debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Aeriss avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the Aeriscoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Aeriscoins avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the Aeris RPC console.</source>
-        <translation>Välkommen till Aeriss RPC-konsol.</translation>
+        <source>Welcome to the Aeriscoin RPC console.</source>
+        <translation>Välkommen till Aeriscoins RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aeris network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Aeris-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aeriscoin network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Aeriscoin-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aeris address</source>
-        <translation>Varning: Ogiltig Aeris-adress</translation>
+        <source>Warning: Invalid Aeriscoin address</source>
+        <translation>Varning: Ogiltig Aeriscoin-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aeris: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aeris network.</source>
-        <translation>Ett meddelande som bifogades till Aeris: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Aeris-nätverket.</translation>
+        <source>A message that was attached to the aeriscoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aeriscoin network.</source>
+        <translation>Ett meddelande som bifogades till Aeriscoin: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Aeriscoin-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aeris Core is shutting down...</source>
-        <translation>Aeris Core stängs ned...</translation>
+        <source>Aeriscoin Core is shutting down...</source>
+        <translation>Aeriscoin Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aeris address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Aeris-adress</translation>
+        <source>Sign the message to prove you own this Aeriscoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Aeriscoin-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aeris address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Aeris-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Aeriscoin address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Aeriscoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Aeris Core developers</source>
-        <translation>Aeris Core-utvecklarna</translation>
+        <source>The Aeriscoin Core developers</source>
+        <translation>Aeriscoin Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Aeris Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Aeris Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Aeriscoin Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Aeriscoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Aeris Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Aeris Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Aeriscoin Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Aeriscoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Aeris Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Aeris Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Aeriscoin Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Aeriscoin Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

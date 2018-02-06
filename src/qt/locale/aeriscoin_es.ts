@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Elija la dirección a la cual enviar los aeris</translation>
+        <translation>Elija la dirección a la cual enviar los aeriscoin</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Elija la dirección donde recibirá los aeris</translation>
+        <translation>Elija la dirección donde recibirá los aeriscoin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Aeris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Aeris para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar aeriss.</translation>
+        <source>These are your Aeriscoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Aeriscoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar aeriscoins.</translation>
     </message>
     <message>
-        <source>These are your Aeris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones de Aeris para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Aeriscoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones de Aeriscoin para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>Aeris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aeriss from being stolen by malware infecting your computer.</source>
-        <translation>Aeris se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus aeriss del robo por un malware que infecte su sistema.</translation>
+        <source>Aeriscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aeriscoins from being stolen by malware infecting your computer.</source>
+        <translation>Aeriscoin se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus aeriscoins del robo por un malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core</translation>
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Aeris address</source>
-        <translation>Enviar cuantía a una dirección Aeris</translation>
+        <source>Send coins to a Aeriscoin address</source>
+        <translation>Enviar cuantía a una dirección Aeriscoin</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aeris: URIs)</source>
-        <translation>Solicitar pagos (genera códigos QR y URIs de Aeris)</translation>
+        <source>Request payments (generates QR codes and aeriscoin: URIs)</source>
+        <translation>Solicitar pagos (genera códigos QR y URIs de Aeriscoin)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
-        <source>&amp;About Aeris Core</source>
-        <translation>&amp;Acerca de Aeris Core</translation>
+        <source>&amp;About Aeriscoin Core</source>
+        <translation>&amp;Acerca de Aeriscoin Core</translation>
     </message>
     <message>
-        <source>Show information about Aeris Core</source>
-        <translation>Mostrar información acerca de Aeris Core</translation>
+        <source>Show information about Aeriscoin Core</source>
+        <translation>Mostrar información acerca de Aeriscoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opciones...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aeris</source>
-        <translation>Modificar las opciones de configuración de Aeris</translation>
+        <source>Modify configuration options for Aeriscoin</source>
+        <translation>Modificar las opciones de configuración de Aeriscoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Firmar &amp;mensaje...</translation>
     </message>
     <message>
-        <source>Sign messages with your Aeris addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Aeris para demostrar su posesión</translation>
+        <source>Sign messages with your Aeriscoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Aeriscoin para demostrar su posesión</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar el mensaje...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aeris addresses</source>
-        <translation>Verificar mensajes para comprobar que fueron firmados con la dirección Aeris indicada</translation>
+        <source>Verify messages to ensure they were signed with specified Aeriscoin addresses</source>
+        <translation>Verificar mensajes para comprobar que fueron firmados con la dirección Aeriscoin indicada</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aeris: URI or payment request</source>
-        <translation>Abrir un aeris: URI o petición de pago</translation>
+        <source>Open a aeriscoin: URI or payment request</source>
+        <translation>Abrir un aeriscoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Aeris Core client</source>
-        <translation>Cliente Aeris Core</translation>
+        <source>Aeriscoin Core client</source>
+        <translation>Cliente Aeriscoin Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Sincronizando datos adicionales: %p%</translation>
     </message>
     <message>
-        <source>Show the Aeris Core help message to get a list with possible Aeris command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de Aeris Core para obtener una lista con las posibles opciones de la consola de comandos</translation>
+        <source>Show the Aeriscoin Core help message to get a list with possible Aeriscoin command-line options</source>
+        <translation>Mostrar el mensaje de ayuda de Aeriscoin Core para obtener una lista con las posibles opciones de la consola de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aeris network</source>
-        <translation><numerusform>%n conexion(es) activa a la red Aeris</numerusform><numerusform>%n conexion(es) activas a la red Aeris</numerusform></translation>
+        <source>%n active connection(s) to Aeriscoin network</source>
+        <translation><numerusform>%n conexion(es) activa a la red Aeriscoin</numerusform><numerusform>%n conexion(es) activas a la red Aeriscoin</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -626,7 +626,7 @@ Dirección: %4
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Selección de Aeris</translation>
+        <translation>Selección de Aeriscoin</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -896,16 +896,16 @@ Dirección: %4
         <translation>Configuración de Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la básica (%1 y 2 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeris.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la básica (%1 y 2 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeriscoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la alta (%1 y 8 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeris.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la alta (%1 y 8 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeriscoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aeris's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la máxima (%1 y 16 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeris.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aeriscoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la máxima (%1 y 16 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Aeriscoin.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Dirección: %4
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aeris address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Aeris válida.</translation>
+        <source>The entered address "%1" is not a valid Aeriscoin address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Aeriscoin válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core</translation>
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Dirección: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Aeris Core</source>
-        <translation>Acerca de Aeris Core</translation>
+        <source>About Aeriscoin Core</source>
+        <translation>Acerca de Aeriscoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Dirección: %4
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Aeris Core.</source>
-        <translation>Bienvenido a Aeris Core</translation>
+        <source>Welcome to Aeriscoin Core.</source>
+        <translation>Bienvenido a Aeriscoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aeris Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Aeris Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aeriscoin Core will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Aeriscoin Core.</translation>
     </message>
     <message>
-        <source>Aeris Core will download and store a copy of the Aeris block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aeris Core va a descargar y guardar una copia de la cadena de bloques de Aeris. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <source>Aeriscoin Core will download and store a copy of the Aeriscoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Aeriscoin Core va a descargar y guardar una copia de la cadena de bloques de Aeriscoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Dirección: %4
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core</translation>
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Dirección: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Aeris after logging in to the system.</source>
-        <translation>Iniciar Aeris automáticamente al ingresar en el sistema.</translation>
+        <source>Automatically start Aeriscoin after logging in to the system.</source>
+        <translation>Iniciar Aeriscoin automáticamente al ingresar en el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Aeris on system login</source>
-        <translation>&amp;Iniciar Aeris al ingresar en el sistema</translation>
+        <source>&amp;Start Aeriscoin on system login</source>
+        <translation>&amp;Iniciar Aeriscoin al ingresar en el sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Dirección: %4
         <translation>Esta cuantía sirve de umbral para que Darksend se apague, una vez sea alcanzada.</translation>
     </message>
     <message>
-        <source>Amount of Aeris to keep anonymized</source>
-        <translation>Cuantía de Aeris a mantener anónima</translation>
+        <source>Amount of Aeriscoin to keep anonymized</source>
+        <translation>Cuantía de Aeriscoin a mantener anónima</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Dirección: %4
         <translation>Permitir conexiones entrantes</translation>
     </message>
     <message>
-        <source>Connect to the Aeris network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red Aeris a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Aeriscoin network through a SOCKS5 proxy.</source>
+        <translation>Conectarse a la red Aeriscoin a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Dirección: %4
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>Automatically open the Aeris client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Aeris en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Aeriscoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Aeriscoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,8 +1258,8 @@ Dirección: %4
         <translation>I&amp;dioma de la interfaz de usuario</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aeris.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará después de reiniciar Aeris.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Aeriscoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará después de reiniciar Aeriscoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1277,7 +1277,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían aeriss.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían aeriscoins.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aeris network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Aeris después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aeriscoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Aeriscoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Error en solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start aeris: click-to-pay handler</source>
-        <translation>No se pudo iniciar aeris: manejador de pago-al-clic</translation>
+        <source>Cannot start aeriscoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar aeriscoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Dirección de pago no válida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Aeris address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Aeris inválida o a parámetros de URI mal formados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aeriscoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Aeriscoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Cuantía</translation>
     </message>
     <message>
-        <source>Enter a Aeris address (e.g. %1)</source>
-        <translation>Introduzca una dirección Aeris (e.g. %1)</translation>
+        <source>Enter a Aeriscoin address (e.g. %1)</source>
+        <translation>Introduzca una dirección Aeriscoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Número de conexiones</translation>
     </message>
     <message>
-        <source>Open the Aeris debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Aeriscoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede requerir varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Salientes:</translation>
     </message>
     <message>
-        <source>Welcome to the Aeris RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Aeris</translation>
+        <source>Welcome to the Aeriscoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Aeriscoin</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>&amp;Reutilizar una dirección receptora existente (no recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aeris network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, el cual se aerisstra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Aeris.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aeriscoin network.</source>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, el cual se aeriscoinstra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Aeriscoin.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Etiqueta opcional para asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aeris network.</source>
-        <translation>Un mensaje opcional para adjuntar con la solicitud de pago, el cual aparecerá cuando ésta sea abierta.&lt;br&gt;Nota: El mensaje no se enviará con el pago a la red Aeris.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aeriscoin network.</source>
+        <translation>Un mensaje opcional para adjuntar con la solicitud de pago, el cual aparecerá cuando ésta sea abierta.&lt;br&gt;Nota: El mensaje no se enviará con el pago a la red Aeriscoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2201,7 +2201,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Aeris</translation>
+        <translation>Enviar Aeriscoin</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Si la comisión personalizada se establece en 1000 duffs y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 duffs de comisión,&lt;br /&gt;mientras que "total como mínimo" paga 1000 duffs. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aeris transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones aeris a la procesable por la red.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aeriscoin transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones aeriscoin a la procesable por la red.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de aeriss</translation>
+        <translation>Confirmar el envío de aeriscoins</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2485,19 +2485,19 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los aeriss de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los aeris se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los aeriscoins de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los aeriscoin se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Error: El monedero se desbloqueó solo para anonimizar aeriss.</translation>
+        <translation>Error: El monedero se desbloqueó solo para anonimizar aeriscoins.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar sólo la comisión mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aeris address</source>
-        <translation>Aviso: Dirección de Aeris no válida</translation>
+        <source>Warning: Invalid Aeriscoin address</source>
+        <translation>Aviso: Dirección de Aeriscoin no válida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Pagar &amp;a:</translation>
     </message>
     <message>
-        <source>The Aeris address to send the payment to</source>
-        <translation>La dirección Aeris a la cual enviar el pago</translation>
+        <source>The Aeriscoin address to send the payment to</source>
+        <translation>La dirección Aeriscoin a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aeris: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aeris network.</source>
-        <translation>Un mensaje que se adjuntó al aeris: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Aeris.</translation>
+        <source>A message that was attached to the aeriscoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aeriscoin network.</source>
+        <translation>Un mensaje que se adjuntó al aeriscoin: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Aeriscoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aeris Core is shutting down...</source>
-        <translation>Aeris Core se está cerrando...</translation>
+        <source>Aeriscoin Core is shutting down...</source>
+        <translation>Aeriscoin Core se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Puede firmar mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarle para suplantar su identidad. Firme solo declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Aeris address to sign the message with</source>
-        <translation>La dirección Aeris con la cual se firma el mensaje</translation>
+        <source>The Aeriscoin address to sign the message with</source>
+        <translation>La dirección Aeriscoin con la cual se firma el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aeris address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Aeris</translation>
+        <source>Sign the message to prove you own this Aeriscoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Aeriscoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Aeris address the message was signed with</source>
-        <translation>La dirección Aeris con la cual se firmó el mensaje</translation>
+        <source>The Aeriscoin address the message was signed with</source>
+        <translation>La dirección Aeriscoin con la cual se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aeris address</source>
-        <translation>Verificar el mensaje para garantizar que fue firmado con la dirección Aeris indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Aeriscoin address</source>
+        <translation>Verificar el mensaje para garantizar que fue firmado con la dirección Aeriscoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aeris Core</source>
-        <translation>Aeris Core</translation>
+        <source>Aeriscoin Core</source>
+        <translation>Aeriscoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Aeris Core developers</source>
-        <translation>Los desarrolladores del Aeris Core</translation>
+        <source>The Aeriscoin Core developers</source>
+        <translation>Los desarrolladores del Aeriscoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2919,7 +2919,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los aeriss generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los aeriscoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2954,7 +2954,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Esta ventana aerisstra información detallada sobre la transacción</translation>
+        <translation>Esta ventana aeriscoinstra información detallada sobre la transacción</translation>
     </message>
 </context>
 <context>
@@ -3259,7 +3259,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unidad con la cual se aerisstran las cuantías. Pulse para seleccionar otra unidad.</translation>
+        <translation>Unidad con la cual se aeriscoinstran las cuantías. Pulse para seleccionar otra unidad.</translation>
     </message>
 </context>
 <context>
@@ -3273,7 +3273,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Aeris</translation>
+        <translation>Enviar Aeriscoin</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 ARS.</source>
@@ -3326,12 +3326,12 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Aeris Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Aeris Core.</translation>
+        <source>Cannot obtain a lock on data directory %s. Aeriscoin Core is probably already running.</source>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Aeriscoin Core.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos aeriss más. </translation>
+        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos aeriscoins más. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Aeris Core is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. Aeris Core probablemente ya está en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. Aeriscoin Core is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. Aeriscoin Core probablemente ya está en funcionamiento.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3615,8 +3615,8 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <translation>Borrar todas las transacciones del monedero y recuperar únicamente aquellas partes de la cadena de bloques a través de -rescan en el inicio</translation>
     </message>
     <message>
-        <source>Disable all Aeris specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desactivar todas las funciones asociadas a Aeris (Nodos Maestros, Darksend, InstantX, Presupuesto) (0-1, predeterminado: %u)</translation>
+        <source>Disable all Aeriscoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desactivar todas las funciones asociadas a Aeriscoin (Nodos Maestros, Darksend, InstantX, Presupuesto) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3688,7 +3688,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Ofrecer liquidez a Darksend mezclando aeris con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
+        <translation>Ofrecer liquidez a Darksend mezclando aeriscoin con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3700,7 +3700,7 @@ https://www.transifex.com/projects/p/aeris/</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Establecer el número de hilos para la generación de aeris cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
+        <translation>Establecer el número de hilos para la generación de aeriscoin cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
@@ -3714,24 +3714,24 @@ https://www.transifex.com/projects/p/aeris/</translation>
         <source>To use aeriscoind, or the -server option to aeriscoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aerisrpc
+rpcuser=aeriscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Aeris Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Aeriscoin Alert" admin@foo.com
 </source>
         <translation>Para usar aeriscoind, o la opción -server de aeriscoin-qt, debe establecer rpcpassword en el archivo de configuración:
 %s
 Es recomendable que use la contraseña aleatoria siguiente:
-rpcuser=aerisrpc
+rpcuser=aeriscoinrpc
 rpcpassword=%s
 (no necesita recordar esta contraseña)
 El nombre de usuario y la contraseña NO DEBEN ser iguales.
 Si el archivo no existe, créelo con permisos de sólo lectura para su propietario.
 También resulta recomendable establecer alertnotify para que se le notifique de posibles problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeriscoin" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3747,8 +3747,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
         <translation>Aviso: ¡-maxtxfee se estableció en un valor muy alto! Comisiones tan grandes no se podrían pagar en una única transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Aeris Core will not work properly.</source>
-        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Aeris Core no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Aeriscoin Core will not work properly.</source>
+        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Aeriscoin Core no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3801,8 +3801,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
         <translation>Copyright (C) 2009-%i Los Desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Aeris Core Developers</source>
-        <translation>Copyright (C) 2014-%i Los Desarrolladores de Aeris Core</translation>
+        <source>Copyright (C) 2014-%i The Aeriscoin Core Developers</source>
+        <translation>Copyright (C) 2014-%i Los Desarrolladores de Aeriscoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3833,8 +3833,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
         <translation>Error al conectar al Nodo Maestro.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Aeris Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Aeris Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Aeriscoin Core</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Aeriscoin Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3870,7 +3870,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Generar aeris (predeterminado: %u)</translation>
+        <translation>Generar aeriscoin (predeterminado: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3905,8 +3905,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Aeris Core is shutting down.</source>
-        <translation>La comprobación de validez de inicio falló. Aeris Core se está cerrando.</translation>
+        <source>Initialization sanity check failed. Aeriscoin Core is shutting down.</source>
+        <translation>La comprobación de validez de inicio falló. Aeriscoin Core se está cerrando.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4157,8 +4157,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Aeris" admin@foo.com
         <translation>Usar UPnP para asignar el puerto de escucha (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Aeris Core to complete</source>
-        <translation>El monedero se ha de reescribir: reinicie Aeris Core para completarlo</translation>
+        <source>Wallet needed to be rewritten: restart Aeriscoin Core to complete</source>
+        <translation>El monedero se ha de reescribir: reinicie Aeriscoin Core para completarlo</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

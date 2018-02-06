@@ -27,10 +27,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Aeris Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Aeriscoin Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Aeris Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Aeriscoin Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2018
@@ -350,10 +350,10 @@
 #define PACKAGE_BUGREPORT "https://github.com/aeriscoin/aeriscoin/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Aeris Core"
+#define PACKAGE_NAME "Aeriscoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Aeris Core 0.15.0"
+#define PACKAGE_STRING "Aeriscoin Core 0.15.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "aeriscoin"

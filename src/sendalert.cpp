@@ -57,10 +57,10 @@ void ThreadSendAlert()
     //  Higher numbers mean higher priority
     alert.nPriority     = 5000;
     alert.strComment    = "Failing to update will limit your walletnode functionality";
-    alert.strStatusBar  = "URGENT: Upgrade required: connect https://www.Aeris.org";
+    alert.strStatusBar  = "URGENT: Upgrade required: connect https://www.Aeriscoin.com";
 
     // Set specific client version/versions here. If setSubVer is empty, no filtering on subver is done:
-    alert.setSubVer.insert(std::string("/Aeris Core:1.0.0.2/"));
+    alert.setSubVer.insert(std::string("/Aeriscoin Core:1.0.0.2/"));
 
     // Sign
     if(!alert.Sign())

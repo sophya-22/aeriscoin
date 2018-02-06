@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -116,7 +116,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Aeris address (e.g. %1)").arg("AKRtLpVRXtcCirzzbLoNFaAfMPRzcRaQy2"));
+    widget->setPlaceholderText(QObject::tr("Enter a Aeriscoin address (e.g. %1)").arg("AKRtLpVRXtcCirzzbLoNFaAfMPRzcRaQy2"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -133,8 +133,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no aeris: URI
-    if(!uri.isValid() || uri.scheme() != QString("aeris"))
+    // return if URI is not valid or is no aeriscoin: URI
+    if(!uri.isValid() || uri.scheme() != QString("aeriscoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -203,13 +203,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert aeris:// to aeris:
+    // Convert aeriscoin:// to aeriscoin:
     //
-    //    Cannot handle this later, because aeris:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because aeriscoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("aeris://", Qt::CaseInsensitive))
+    if(uri.startsWith("aeriscoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 7, "aeris:");
+        uri.replace(0, 7, "aeriscoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -217,7 +217,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("aeris:%1").arg(info.address);
+    QString ret = QString("aeriscoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -638,15 +638,15 @@ boost::filesystem::path static StartupShortcutPath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Aeris.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Aeriscoin.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Aeris (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Aeris (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Aeriscoin (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Aeriscoin (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Aeris*.lnk
+    // check for Aeriscoin*.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -782,7 +782,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Aeris\n";
+            optionFile << "Name=Aeriscoin\n";
         else
             optionFile << strprintf("Name=Bitcoin (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));
@@ -803,7 +803,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the Aeris Core app
+    // loop through the list of startup items and try to find the Aeriscoin Core app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -848,7 +848,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add Aeris Core app to startup item list
+        // add Aeriscoin Core app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {

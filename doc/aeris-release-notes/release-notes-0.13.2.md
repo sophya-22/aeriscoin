@@ -1,4 +1,4 @@
-Aeris Core version 0.13.2 is now available from:
+Aeriscoin Core version 0.13.2 is now available from:
 
   <https://download.aeriscoin.org/aeriscoin-0.13.2.1/>
 
@@ -41,7 +41,7 @@ Notable changes
 Signature validation using libsecp256k1
 ---------------------------------------
 
-ECDSA signatures inside Aeris transactions now use validation using
+ECDSA signatures inside Aeriscoin transactions now use validation using
 [libsecp256k1](https://github.com/bitcoin-core/secp256k1) instead of OpenSSL.
 
 Depending on the platform, this means a significant speedup for raw signature
@@ -88,15 +88,15 @@ can often prevent an extra roundtrip before the actual block is downloaded.
 Memory pool limiting
 --------------------
 
-Previous versions of Aeris Core had their mempool limited by checking
+Previous versions of Aeriscoin Core had their mempool limited by checking
 a transaction's fees against the node's minimum relay fee. There was no
 upper bound on the size of the mempool and attackers could send a large
 number of transactions paying just slighly more than the default minimum
 relay fee to crash nodes with relatively low RAM. A temporary workaround
-for previous versions of Aeris Core was to raise the default minimum
+for previous versions of Aeriscoin Core was to raise the default minimum
 relay fee.
 
-Aeris Core 0.13.2 will have a strict maximum size on the mempool. The
+Aeriscoin Core 0.13.2 will have a strict maximum size on the mempool. The
 default value is 300 MB and can be configured with the `-maxmempool`
 parameter. Whenever a transaction would cause the mempool to exceed
 its maximum size, the transaction that (along with in-mempool descendants) has
@@ -105,7 +105,7 @@ minimum relay feerate will be increased to match this feerate plus the initial
 minimum relay feerate. The initial minimum relay feerate is set to
 1000 satoshis per kB.
 
-Aeris Core 0.13.2 also introduces new default policy limits on the length and
+Aeriscoin Core 0.13.2 also introduces new default policy limits on the length and
 size of unconfirmed transaction chains that are allowed in the mempool
 (generally limiting the length of unconfirmed chains to 25 transactions, with a
 total size of 101 KB).  These limits can be overriden using command line
@@ -147,10 +147,10 @@ returned (previously all relevant hashes were returned).
 Relay and Mining: Priority transactions
 ---------------------------------------
 
-Aeris Core has a heuristic 'priority' based on coin value and age. This
+Aeriscoin Core has a heuristic 'priority' based on coin value and age. This
 calculation is used for relaying of transactions which do not pay the
 minimum relay fee, and can be used as an alternative way of sorting
-transactions for mined blocks. Aeris Core will relay transactions with
+transactions for mined blocks. Aeriscoin Core will relay transactions with
 insufficient fees depending on the setting of `-limitfreerelay=<r>` (default:
 `r=15` kB per minute) and `-blockprioritysize=<s>`.
 
@@ -175,7 +175,7 @@ Note, however, that if mining priority transactions is left disabled, the
 priority delta will be ignored and only the fee metric will be effective.
 
 This internal automatic prioritization handling is being considered for removal
-entirely in Aeris Core 0.13, and it is at this time undecided whether the
+entirely in Aeriscoin Core 0.13, and it is at this time undecided whether the
 more accurate priority calculation for chained unconfirmed transactions will be
 restored. Community direction on this topic is particularly requested to help
 set project priorities.
@@ -185,15 +185,15 @@ Automatically use Tor hidden services
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-Aeris Core has been updated to make use of this.
+Aeriscoin Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authorization is available),
-Aeris Core automatically creates a hidden service to listen on, without
-manual configuration. Aeris Core will also use Tor automatically to connect
+Aeriscoin Core automatically creates a hidden service to listen on, without
+manual configuration. Aeriscoin Core will also use Tor automatically to connect
 to other .onion nodes if the control socket can be successfully opened. This
 will positively affect the number of available .onion nodes and their usage.
 
-This new feature is enabled by default if Aeris Core is listening, and
+This new feature is enabled by default if Aeriscoin Core is listening, and
 a connection to Tor can be made. It can be configured with the `-listenonion`,
 `-torcontrol` and `-torpassword` settings. To show verbose debugging
 information, pass `-debug=tor`.
@@ -214,8 +214,8 @@ Various improvements have been made to how the wallet calculates
 transaction fees.
 
 Users can decide to pay a predefined fee rate by setting `-paytxfee=<n>`
-(or `settxfee <n>` rpc during runtime). A value of `n=0` signals Aeris
-Core to use floating fees. By default, Aeris Core will use floating
+(or `settxfee <n>` rpc during runtime). A value of `n=0` signals Aeriscoin
+Core to use floating fees. By default, Aeriscoin Core will use floating
 fees.
 
 Based on past transaction data, floating fees approximate the fees
@@ -226,9 +226,9 @@ Sometimes, it is not possible to give good estimates, or an estimate
 at all. Therefore, a fallback value can be set with `-fallbackfee=<f>`
 (default: `0.0002` LTC/kB).
 
-At all times, Aeris Core will cap fees at `-maxtxfee=<x>` (default:
+At all times, Aeriscoin Core will cap fees at `-maxtxfee=<x>` (default:
 0.10) LTC.
-Furthermore, Aeris Core will never create transactions paying less than
+Furthermore, Aeriscoin Core will never create transactions paying less than
 the current minimum relay fee.
 Finally, a user can set the minimum fee rate for all transactions with
 `-mintxfee=<i>`, which defaults to 1000 satoshis per kB.
@@ -443,7 +443,7 @@ table by any user on the system.
 C++11 and Python 3
 ------------------
 
-Various code modernizations have been done. The Aeris Core code base has
+Various code modernizations have been done. The Aeriscoin Core code base has
 started using C++11. This means that a C++11-capable compiler is now needed for
 building. Effectively this means GCC 4.7 or higher, or Clang 3.3 or higher.
 
@@ -489,7 +489,7 @@ BIP112 soft fork to enforce OP_CHECKSEQUENCEVERIFY
 --------------------------------------------------
 
 [BIP112][] redefines the existing OP_NOP3 as OP_CHECKSEQUENCEVERIFY (CSV)
-for a new opcode in the Aeris scripting system that in combination with
+for a new opcode in the Aeriscoin scripting system that in combination with
 [BIP68][] allows execution pathways of a script to be restricted based
 on the age of the output being spent.
 
@@ -502,7 +502,7 @@ BIP113 locktime enforcement soft fork
 This release seeks to make mempool-only locktime enforcement using GetMedianTimePast() 
 a consensus rule.
 
-Aeris transactions currently may specify a locktime indicating when
+Aeriscoin transactions currently may specify a locktime indicating when
 they may be added to a valid block.  Current consensus rules require
 that blocks have a block header time greater than the locktime specified
 in any transaction in that block.
@@ -592,7 +592,7 @@ You can't disable HD key generation once you have created a HD wallet.
 
 There is no distinction between internal (change) and external keys.
 
-HD wallets are incompatible with older versions of Aeris Core.
+HD wallets are incompatible with older versions of Aeriscoin Core.
 
 [Pull request](https://github.com/bitcoin/bitcoin/pull/8035/files), [BIP 32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
 
@@ -786,9 +786,9 @@ covered by the txid. This provides several immediate benefits:
   identifier (txid) of transactions without referencing the witness, which can
   sometimes be changed by third-parties (such as miners) or by co-signers in a
   multisig spend. This solves all known cases of unwanted transaction
-  malleability, which is a problem that makes programming Aeris wallet
+  malleability, which is a problem that makes programming Aeriscoin wallet
   software more difficult and which seriously complicates the design of smart
-  contracts for Aeris.
+  contracts for Aeriscoin.
 
 - **Capacity increase:** Segwit transactions contain new fields that are not
   part of the data currently used to calculate the size of a block, which
@@ -802,7 +802,7 @@ covered by the txid. This provides several immediate benefits:
   following section for details).
 
 - **Weighting data based on how it affects node performance:** Some parts of
-  each Aeris block need to be stored by nodes in order to validate future
+  each Aeriscoin block need to be stored by nodes in order to validate future
   blocks; other parts of a block can be immediately forgotten (pruned) or used
   only for helping other nodes sync their copy of the block chain.  One large
   part of the immediately prunable data are transaction signatures (witnesses),
@@ -835,7 +835,7 @@ covered by the txid. This provides several immediate benefits:
   different signature method that doesn't suffer from this problem and doesn't
   have any unwanted side-effects.
 
-- **Increased security for multisig:** Aeris addresses (both P2PKH addresses
+- **Increased security for multisig:** Aeriscoin addresses (both P2PKH addresses
   that start with a '1' and P2SH addresses that start with a '3' or 'M') use a hash
   function known as RIPEMD-160.  For P2PKH addresses, this provides about 160
   bits of security---which is beyond what cryptographers believe can be broken
@@ -845,7 +845,7 @@ covered by the txid. This provides several immediate benefits:
   Segwit allows advanced transactions to use the SHA256 hash function instead,
   which provides about 128 bits of security  (that is 281 trillion times as
   much security as 80 bits and is equivalent to the maximum bits of security
-  believed to be provided by Aeris's choice of parameters for its Elliptic
+  believed to be provided by Aeriscoin's choice of parameters for its Elliptic
   Curve Digital Security Algorithm [ECDSA].)
 
 - **More efficient almost-full-node security** Satoshi Nakamoto's original
@@ -853,7 +853,7 @@ covered by the txid. This provides several immediate benefits:
   skip downloading and validating some data from historic blocks that are
   protected by large amounts of proof of work.  Unfortunately, Nakamoto's
   method can't guarantee that a newly-started node using this method will
-  produce an accurate copy of Aeris's current ledger (called the UTXO set),
+  produce an accurate copy of Aeriscoin's current ledger (called the UTXO set),
   making the node vulnerable to falling out of consensus with other nodes.
   Although the problems with Nakamoto's method can't be fixed in a soft fork,
   Segwit accomplishes something similar to his original proposal: it makes it
@@ -861,13 +861,13 @@ covered by the txid. This provides several immediate benefits:
   (specifically, the segregated witnesses) while still ensuring that the node
   can build an accurate copy of the UTXO set for the block chain with the most
   proof of work.  Segwit enables this capability at the consensus layer, but
-  note that Aeris Core does not provide an option to use this capability as
+  note that Aeriscoin Core does not provide an option to use this capability as
   of this 0.13.2 release.
 
 - **Script versioning:** Segwit makes it easy for future soft forks to allow
-  Aeris users to individually opt-in to almost any change in the Aeris
+  Aeriscoin users to individually opt-in to almost any change in the Aeriscoin
   Script language when those users receive new transactions.  Features
-  currently being researched by Bitcoin and Aeris Core contributors that may
+  currently being researched by Bitcoin and Aeriscoin Core contributors that may
   use this capability include support for Schnorr signatures, which can improve
   the privacy and efficiency of multisig transactions (or transactions with
   multiple inputs), and Merklized Abstract Syntax Trees (MAST), which can
@@ -877,8 +877,8 @@ covered by the txid. This provides several immediate benefits:
 
 Activation for the segwit soft fork is being managed using
 BIP9. At the beginning of the first retarget period after
-segwit's start date of 1 January 2017 miners can update the Aeris
-client to Aeris Core 0.13.2 to signal for segwit support. When a
+segwit's start date of 1 January 2017 miners can update the Aeriscoin
+client to Aeriscoin Core 0.13.2 to signal for segwit support. When a
 super-majority of 75% is reached segwit is activated by optional, and
 if 75% of blocks within a 8,064-block retarget period (about 3.5 days)
 signal support for segwit, after another 8,064 blocks, segwit will
@@ -911,7 +911,7 @@ a third-party to insert data into other people's transactions, changing
 the transaction's txid (called transaction malleability) and possibly
 causing other problems.
 
-Since Aeris Core 0.10.0, nodes have defaulted to only relaying and
+Since Aeriscoin Core 0.10.0, nodes have defaulted to only relaying and
 mining transactions whose dummy element was a null value (0x00, also
 called OP_0).  The null dummy soft fork turns this relay rule into a
 consensus rule both for non-segwit transactions and segwit transactions,

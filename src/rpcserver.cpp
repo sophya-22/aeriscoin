@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The Aeris Core developers
+// Copyright (c) 2014-2017 The Aeriscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -244,11 +244,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Aeris Core server.");
+            "\nStop Aeriscoin Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Aeris Core server stopping";
+    return "Aeriscoin Core server stopping";
 }
 
 /**
@@ -343,19 +343,19 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Aeris features */
-    { "aeris",               "masternode",             &masternode,             true  },
-    { "aeris",               "masternodelist",         &masternodelist,         true  },
-    { "aeris",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "aeris",               "gobject",                &gobject,                true  },
-    { "aeris",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "aeris",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "aeris",               "voteraw",                &voteraw,                true  },
-    { "aeris",               "mnsync",                 &mnsync,                 true  },
-    { "aeris",               "spork",                  &spork,                  true  },
-    { "aeris",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* Aeriscoin features */
+    { "aeriscoin",               "masternode",             &masternode,             true  },
+    { "aeriscoin",               "masternodelist",         &masternodelist,         true  },
+    { "aeriscoin",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "aeriscoin",               "gobject",                &gobject,                true  },
+    { "aeriscoin",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "aeriscoin",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "aeriscoin",               "voteraw",                &voteraw,                true  },
+    { "aeriscoin",               "mnsync",                 &mnsync,                 true  },
+    { "aeriscoin",               "spork",                  &spork,                  true  },
+    { "aeriscoin",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "aeris",               "privatesend",            &privatesend,            false },
+    { "aeriscoin",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
