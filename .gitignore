@@ -2,12 +2,12 @@ f*.tar.gz
 
 *.exe
 src/aeris
-src/aerisd
-src/aeris-cli
-src/aeris-tx
+src/aeriscoind
+src/aeriscoin-cli
+src/aeriscoin-tx
 src/test/test_aeris
-src/test/test_aeris_fuzzy
-src/qt/test/test_aeris-qt
+src/test/test_aeriscoin_fuzzy
+src/qt/test/test_aeriscoin-qt
 
 # autoreconf
 Makefile.in
@@ -73,12 +73,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-aeris-qt
-Aeris-Qt.app
+aeriscoin-qt
+Aeriscoin-Qt.app
 
 # Unit-tests
 Makefile.test
-aeris-qt_test
+aeriscoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -91,7 +91,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_aeris.coverage/
+test_aeriscoin.coverage/
 total.coverage/
 coverage_percent.txt
 

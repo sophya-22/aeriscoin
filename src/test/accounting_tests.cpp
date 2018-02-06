@@ -5,7 +5,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 
-#include "test/test_aeris.h"
+#include "test/test_aeriscoin.h"
 
 #include <stdint.h>
 

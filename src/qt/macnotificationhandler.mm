@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.aeris.Aeris-Qt";
+        return @"org.aeriscoin.Aeriscoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

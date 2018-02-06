@@ -114,7 +114,7 @@ bool isObscured(QWidget *w);
 // Open debug.log
 void openDebugLogfile();
 
-// Open aeris.conf
+// Open aeriscoin.conf
 void openConfigfile();
 
 // Open masternode.conf

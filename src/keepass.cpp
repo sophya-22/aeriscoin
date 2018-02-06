@@ -244,7 +244,7 @@ std::string CKeePassIntegrator::constructHTTPPost(const std::string& strMsg, con
 {
     std::ostringstream streamOut;
     streamOut << "POST / HTTP/1.1\r\n"
-              << "User-Agent: aeris-json-rpc/" << FormatFullVersion() << "\r\n"
+              << "User-Agent: aeriscoin-json-rpc/" << FormatFullVersion() << "\r\n"
               << "Host: localhost\r\n"
               << "Content-Type: application/json\r\n"
               << "Content-Length: " << strMsg.size() << "\r\n"
@@ -337,7 +337,7 @@ void CKeePassIntegrator::doHTTPPost(const std::string& sRequest, int& nStatus, s
     struct evkeyvalq *output_headers = evhttp_request_get_output_headers(req);
     assert(output_headers);
 //    s << "POST / HTTP/1.1\r\n"
-    evhttp_add_header(output_headers, "User-Agent", ("aeris-json-rpc/" + FormatFullVersion()).c_str());
+    evhttp_add_header(output_headers, "User-Agent", ("aeriscoin-json-rpc/" + FormatFullVersion()).c_str());
     evhttp_add_header(output_headers, "Host", KEEPASS_HTTP_HOST);
     evhttp_add_header(output_headers, "Accept", "application/json");
     evhttp_add_header(output_headers, "Content-Type", "application/json");

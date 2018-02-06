@@ -2,7 +2,7 @@
 
 #include "cachemap.h"
 
-#include "test/test_aeris.h"
+#include "test/test_aeriscoin.h"
 
 #include <boost/test/unit_test.hpp>
 

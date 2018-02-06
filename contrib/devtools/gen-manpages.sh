@@ -4,12 +4,12 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/aerisd}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/aeris-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/aeris-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/aeris-qt}
+BITCOIND=${BITCOIND:-$SRCDIR/aeriscoind}
+BITCOINCLI=${BITCOINCLI:-$SRCDIR/aeriscoin-cli}
+BITCOINTX=${BITCOINTX:-$SRCDIR/aeriscoin-tx}
+BITCOINQT=${BITCOINQT:-$SRCDIR/qt/aeriscoin-qt}
 
-[ ! -x $BITCOIND ] && echo "$AERISD not found or not executable." && exit 1
+[ ! -x $BITCOIND ] && echo "$aeriscoind not found or not executable." && exit 1
 
 # The autodetected version git tag can screw up manpage output a little bit
 BTCVER=($($AERISCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))

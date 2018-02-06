@@ -2,7 +2,7 @@ OpenBSD build guide
 ======================
 (updated for OpenBSD 6.1)
 
-This guide describes how to build aerisd and command-line utilities on OpenBSD.
+This guide describes how to build aeriscoind and command-line utilities on OpenBSD.
 
 As OpenBSD is most common as a server OS, we will not bother with the GUI.
 

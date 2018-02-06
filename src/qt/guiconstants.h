@@ -48,8 +48,8 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Aeris"
-#define QAPP_ORG_DOMAIN "aeris.org"
-#define QAPP_APP_NAME_DEFAULT "Aeris-Qt"
-#define QAPP_APP_NAME_TESTNET "Aeris-Qt-testnet"
+#define QAPP_ORG_DOMAIN "aeriscoin.org"
+#define QAPP_APP_NAME_DEFAULT "Aeriscoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Aeriscoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

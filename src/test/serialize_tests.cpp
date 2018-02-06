@@ -5,7 +5,7 @@
 #include "serialize.h"
 #include "streams.h"
 #include "hash.h"
-#include "test/test_aeris.h"
+#include "test/test_aeriscoin.h"
 
 #include <stdint.h>
 

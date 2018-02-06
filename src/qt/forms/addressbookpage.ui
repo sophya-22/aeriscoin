@@ -137,7 +137,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../aeris.qrc"/>
+  <include location="../aeriscoin.qrc"/>
  </resources>
  <connections/>
 </ui>

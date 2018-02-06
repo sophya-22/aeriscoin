@@ -204,8 +204,8 @@ void Intro::pickDataDirectory()
         settings.setValue("strDataDirDefault", dataDirDefaultCurrent);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the aeris.conf file in the default data directory
-     * (to be consistent with aerisd behavior)
+     * override -datadir in the aeriscoin.conf file in the default data directory
+     * (to be consistent with aeriscoind behavior)
      */
     if(dataDir != dataDirDefaultCurrent)
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

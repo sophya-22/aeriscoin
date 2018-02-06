@@ -213,7 +213,7 @@ def main():
         sys.exit(0)
 
     if not (enable_wallet and enable_utils and enable_bitcoind):
-        print("No functional tests to run. Wallet, utils, and aerisd must all be enabled")
+        print("No functional tests to run. Wallet, utils, and aeriscoind must all be enabled")
         print("Rerun `configure` with -enable-wallet, -with-utils and -with-daemon and rerun make")
         sys.exit(0)
 
@@ -267,8 +267,8 @@ def main():
 def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_coverage=False, args=[]):
     # Warn if bitcoind is already running (unix only)
     try:
-        if subprocess.check_output(["pidof", "aerisd"]) is not None:
-            print("%sWARNING!%s There is already a aerisd process running on this system. Tests may fail unexpectedly due to resource contention!" % (BOLD[1], BOLD[0]))
+        if subprocess.check_output(["pidof", "aeriscoind"]) is not None:
+            print("%sWARNING!%s There is already a aeriscoind process running on this system. Tests may fail unexpectedly due to resource contention!" % (BOLD[1], BOLD[0]))
     except (OSError, subprocess.SubprocessError):
         pass
 
@@ -278,8 +278,8 @@ def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_cove
         print("%sWARNING!%s There is a cache directory here: %s. If tests fail unexpectedly, try deleting the cache directory." % (BOLD[1], BOLD[0], cache_dir))
 
     #Set env vars
-    if "AERISD" not in os.environ:
-        os.environ["AERISD"] = build_dir + '/src/aerisd' + exeext
+    if "aeriscoind" not in os.environ:
+        os.environ["aeriscoind"] = build_dir + '/src/aeriscoind' + exeext
 
     tests_dir = src_dir + '/test/functional/'
 

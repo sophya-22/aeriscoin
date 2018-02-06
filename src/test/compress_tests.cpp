@@ -4,7 +4,7 @@
 
 #include "compressor.h"
 #include "util.h"
-#include "test/test_aeris.h"
+#include "test/test_aeriscoin.h"
 
 #include <stdint.h>
 

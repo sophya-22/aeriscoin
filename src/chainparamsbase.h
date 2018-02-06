@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between aeris-cli and aerisd)
+ * CBaseChainParams defines the base parameters (shared between aeriscoin-cli and aeriscoind)
  * of a given instance of the Aeris system.
  */
 class CBaseChainParams

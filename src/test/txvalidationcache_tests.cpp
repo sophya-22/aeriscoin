@@ -10,7 +10,7 @@
 #include "txmempool.h"
 #include "random.h"
 #include "script/standard.h"
-#include "test/test_aeris.h"
+#include "test/test_aeriscoin.h"
 #include "utiltime.h"
 
 #include <boost/test/unit_test.hpp>

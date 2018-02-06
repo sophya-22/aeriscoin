@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Aeris-Qt</string>
+  <string>Aeriscoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Aeris-Qt</string>
+  <string>Aeriscoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.aeriscoin.Aeris-Qt</string>
+  <string>org.aeriscoin.Aeriscoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

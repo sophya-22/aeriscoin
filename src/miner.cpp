@@ -330,7 +330,7 @@ void static MueMiner(const CChainParams& chainparams)
 {
     LogPrintf("AerisMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("aeris-miner");
+    RenameThread("aeriscoin-miner");
 
     unsigned int nExtraNonce = 0;
 

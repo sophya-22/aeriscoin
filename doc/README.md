@@ -16,7 +16,7 @@ The following are some helpful notes on how to run Aeris on your native platform
 Unpack the files into a directory and run:
 
 - `bin/aeriscoin-qt` (GUI) or
-- `bin/aerisd` (headless)
+- `bin/aeriscoind` (headless)
 
 ### Windows
 

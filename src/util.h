@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/aeris-config.h"
+#include "config/aeriscoin-config.h"
 #endif
 
 #include "compat.h"
@@ -249,7 +249,7 @@ std::string GetThreadName();
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("aeris-%s", name);
+    std::string s = strprintf("aeriscoin-%s", name);
     RenameThread(s.c_str());
     try
     {

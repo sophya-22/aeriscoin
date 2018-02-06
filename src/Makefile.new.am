@@ -69,11 +69,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += aerisd
+  bin_PROGRAMS += aeriscoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += aeris-cli aeris-tx
+  bin_PROGRAMS += aeriscoin-cli aeriscoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -199,7 +199,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between aerisd and aeris-qt
+# server: shared between aeriscoind and aeriscoin-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -248,7 +248,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between aerisd and aeris-qt, but only linked
+# wallet: shared between aeriscoind and aeriscoin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -322,7 +322,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha512.cpp \
   crypto/sha512.h
 
-# common: shared between aerisd, and aeris-qt and non-server tools
+# common: shared between aeriscoind, and aeriscoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -379,7 +379,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between aeris-cli and aeris-qt
+# cli: shared between aeriscoin-cli and aeriscoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -390,16 +390,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-aerisd_SOURCES = aerisd.cpp
-aerisd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-aerisd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aerisd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+aeriscoind_SOURCES = aeriscoind.cpp
+aeriscoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+aeriscoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+aeriscoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aerisd_SOURCES += aerisd-res.rc
+aeriscoind_SOURCES += aeriscoind-res.rc
 endif
 
-aerisd_LDADD = \
+aeriscoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -410,50 +410,50 @@ aerisd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-aerisd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+aeriscoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-aerisd_LDADD += libbitcoin_wallet.a
+aeriscoind_LDADD += libbitcoin_wallet.a
 endif
 
-aerisd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+aeriscoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# aeris-cli binary #
-aeris_cli_SOURCES = aeris-cli.cpp
-aeris_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-aeris_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aeris_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# aeriscoin-cli binary #
+aeriscoin_cli_SOURCES = aeriscoin-cli.cpp
+aeriscoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+aeriscoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+aeriscoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aeris_cli_SOURCES += aeris-cli-res.rc
+aeriscoin_cli_SOURCES += aeriscoin-cli-res.rc
 endif
 
-aeris_cli_LDADD = \
+aeriscoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-aeris_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+aeriscoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# aeris-tx binary #
-aeris_tx_SOURCES = aeris-tx.cpp
-aeris_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-aeris_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aeris_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# aeriscoin-tx binary #
+aeriscoin_tx_SOURCES = aeriscoin-tx.cpp
+aeriscoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+aeriscoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+aeriscoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aeris_tx_SOURCES += aeris-tx-res.rc
+aeriscoin_tx_SOURCES += aeriscoin-tx-res.rc
 endif
 
-aeris_tx_LDADD = \
+aeriscoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-aeris_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+aeriscoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

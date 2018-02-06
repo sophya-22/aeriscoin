@@ -124,7 +124,7 @@ public:
 
         //vSeeds.push_back(CDNSSeedData("nodes.aerisx.io", "nodes.aerisx.io"));
         //vSeeds.push_back(CDNSSeedData("nodes.Aeris.org", "nodes.Aeris.org"));
-        //vSeeds.push_back(CDNSSeedData("nodes.myaeris.com", "nodes.myaeris.com"));
+        //vSeeds.push_back(CDNSSeedData("nodes.myaeriscoin.com", "nodes.myaeriscoin.com"));
         //vSeeds.push_back(CDNSSeedData("nodes.cryptophi.com", "nodes.cryptophi.com"));
         vSeeds.clear();
 
@@ -232,7 +232,7 @@ public:
 
         //vSeeds.push_back(CDNSSeedData("tnodes.aerisx.io", "tnodes.aerisx.io"));
         //vSeeds.push_back(CDNSSeedData("nodes.Aeris.org", "nodes.Aeris.org"));
-        //vSeeds.push_back(CDNSSeedData("nodes.myaeris.com", "nodes.myaeris.com"));
+        //vSeeds.push_back(CDNSSeedData("nodes.myaeriscoin.com", "nodes.myaeriscoin.com"));
         //vSeeds.push_back(CDNSSeedData("nodes.cryptophi.com", "nodes.cryptophi.com"));
 
 

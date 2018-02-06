@@ -429,7 +429,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open aeris.conf with the associated application */
+    /* Open aeriscoin.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
@@ -738,8 +738,8 @@ boost::filesystem::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "aeris.desktop";
-    return GetAutostartDir() / strprintf("aeris-%s.lnk", chain);
+        return GetAutostartDir() / "aeriscoin.desktop";
+    return GetAutostartDir() / strprintf("aeriscoin-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -778,7 +778,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a aeris.desktop file to the autostart directory:
+        // Write a aeriscoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)

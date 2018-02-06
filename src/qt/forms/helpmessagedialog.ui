@@ -76,7 +76,7 @@
         <bool>false</bool>
        </property>
        <property name="pixmap">
-        <pixmap resource="../aeris.qrc">:/images/drkblue/about</pixmap>
+        <pixmap resource="../aeriscoin.qrc">:/images/drkblue/about</pixmap>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
@@ -172,7 +172,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../aeris.qrc"/>
+  <include location="../aeriscoin.qrc"/>
  </resources>
  <connections>
   <connection>

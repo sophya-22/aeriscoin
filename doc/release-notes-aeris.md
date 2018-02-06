@@ -21,8 +21,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the 
-installer (on Windows) or just copy over `/Applications/Aeris-Qt` (on Mac)
-or `aerisd`/`aeriscoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/Aeriscoin-Qt` (on Mac)
+or `aeriscoind`/`aeriscoin-qt` (on Linux).
 
 The first time you run version 0.15.0, your chainstate database will be converted to a
 new format, which will take anywhere from a few minutes to half an hour,
@@ -142,7 +142,7 @@ Aeris Core now supports loading multiple, separate wallets (See [PR 8694](https:
 
 Multi-wallet is enabled by using more than one `-wallet` argument when starting Aeris, either on the command line or in the Aeris config file.
 
-**In Aeris-Qt, only the first wallet will be displayed and accessible for creating and signing transactions.** GUI selectable multiple wallets will be supported in a future version. However, even in 0.15 other loaded wallets will remain synchronized to the node's current tip in the background. This can be useful if running a pruned node, since loading a wallet where the most recent sync is beyond the pruned height results in having to download and revalidate the whole blockchain. Continuing to synchronize all wallets in the background avoids this problem.
+**In Aeriscoin-Qt, only the first wallet will be displayed and accessible for creating and signing transactions.** GUI selectable multiple wallets will be supported in a future version. However, even in 0.15 other loaded wallets will remain synchronized to the node's current tip in the background. This can be useful if running a pruned node, since loading a wallet where the most recent sync is beyond the pruned height results in having to download and revalidate the whole blockchain. Continuing to synchronize all wallets in the background avoids this problem.
 
 Aeris Core 0.15.0 contains the following changes to the RPC interface and `aeriscoin-cli` for multi-wallet:
 

@@ -1393,7 +1393,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../aeris.qrc"/>
+  <include location="../aeriscoin.qrc"/>
  </resources>
  <connections/>
  <buttongroups>
