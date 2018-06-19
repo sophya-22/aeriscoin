@@ -326,7 +326,7 @@ static bool ProcessBlockFound(const CBlock* pblock, const CChainParams& chainpar
     return true;
 }
 
-void static MueMiner(const CChainParams& chainparams)
+void static AerisMiner(const CChainParams& chainparams)
 {
     LogPrintf("AeriscoinMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -436,7 +436,7 @@ void static MueMiner(const CChainParams& chainparams)
     }
 }
 
-void GenerateMue(bool fGenerate, int nThreads, const CChainParams& chainparams)
+void GenerateAeris(bool fGenerate, int nThreads, const CChainParams& chainparams)
 {
     static boost::thread_group* minerThreads = NULL;
 
@@ -455,5 +455,5 @@ void GenerateMue(bool fGenerate, int nThreads, const CChainParams& chainparams)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&MueMiner, boost::cref(chainparams)));
+        minerThreads->create_thread(boost::bind(&AerisMiner, boost::cref(chainparams)));
 }

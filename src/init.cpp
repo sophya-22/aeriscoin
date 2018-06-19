@@ -222,7 +222,7 @@ void PrepareShutdown()
     if (pwalletMain)
         pwalletMain->Flush(false);
 #endif
-    GenerateMue(false, 0, Params());
+    GenerateAeris(false, 0, Params());
     StopNode();
 
     // STORE DATA CACHES INTO SERIALIZED DAT FILES
@@ -1953,7 +1953,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     // --- end disabled ---
 
     // Generate coins in the background
-    GenerateMue(GetBoolArg("-gen", DEFAULT_GENERATE), GetArg("-genproclimit", DEFAULT_GENERATE_THREADS), chainparams);
+    GenerateAeris(GetBoolArg("-gen", DEFAULT_GENERATE), GetArg("-genproclimit", DEFAULT_GENERATE_THREADS), chainparams);
 
     // ********************************************************* Step 13: finished
 

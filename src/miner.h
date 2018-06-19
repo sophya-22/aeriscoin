@@ -32,7 +32,7 @@ struct CBlockTemplate
 };
 
 /** Run the miner threads */
-void GenerateMue(bool fGenerate, int nThreads, const CChainParams& chainparams);
+void GenerateAeris(bool fGenerate, int nThreads, const CChainParams& chainparams);
 /** Generate a new block, without valid proof-of-work */
 CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& scriptPubKeyIn);
 /** Modify the extranonce in a block */
